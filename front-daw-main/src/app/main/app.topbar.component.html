@@ -1,0 +1,29 @@
+<div class="layout-topbar">
+    <a class="layout-topbar-logo" routerLink="">
+
+        <span>LIBRERÍA</span>
+    </a>
+
+    <a class="p-link layout-menu-button layout-topbar-button" href="#" (click)="appMain.toggleMenu($event)">
+        <i class="pi pi-bars"></i>
+    </a>
+
+    <a class="p-link layout-topbar-menu-button layout-topbar-button" href="#" (click)="appMain.toggleTopMenu($event)">
+        <i class="pi pi-ellipsis-v"></i>
+    </a>
+
+    <div class="layout-topbar-menu" [ngClass]="{'layout-topbar-menu-mobile-active':appMain.topMenuActive}">
+
+        <a class="p-link" *ngIf="usuario">
+            <i class="pi pi-user"></i>
+            <span>Usuario: {{usuario.nombreUsuario}}</span>
+        </a>
+
+        <a class="p-link layout-topbar-button"></a>
+
+        <a (click)="logoutUser()" class="p-link layout-topbar-button">
+            <i class="pi pi-sign-out"></i>
+            <span>Log Out</span>
+        </a>
+    </div>
+</div>

@@ -1,0 +1,83 @@
+<div class="grid">
+
+    <div class="col-12">
+        <div class="card">
+            <h5>Agregar Libro:</h5>
+            <form class="p-fluid p-formgrid grid" [formGroup]="editarLibro">
+                <div class="field col-12 ">
+                    <label>Nombre Libro :</label>
+                    <input formControlName="txtNombreLibro" pInputText type="text" />
+                    <p class="text-danger mt-1" *ngIf="
+                        editarLibro.get('txtNombreLibro')?.hasError('required') &&
+                        editarLibro.get('txtNombreLibro')?.touched">
+                        Campo Requerido
+                    </p>
+                </div>
+                <div class="field col-12 md:col-6">
+                    <label>Descripción :</label>
+                    <input formControlName="txtDescripcion" pInputText type="text" />
+                    <p class="text-danger mt-1" *ngIf="
+                        editarLibro.get('txtDescripcion')?.hasError('required') &&
+                        editarLibro.get('txtDescripcion')?.touched">
+                        Campo Requerido
+                    </p>
+                </div>
+                <div class="field col-12 md:col-6">
+                    <label>Año Publicación :</label>
+                    <input formControlName="txtYearPublicacion" pInputText type="text" />
+                    <p class="text-danger mt-1" *ngIf="
+                        editarLibro.get('txtYearPublicacion')?.hasError('required') &&
+                        editarLibro.get('txtYearPublicacion')?.touched">
+                        Campo Requerido
+                    </p>
+                </div>
+
+                <div class="field col-12 md:col-6">
+                    <label>Número de páginas :</label>
+                    <input formControlName="txtNoPaginas" pInputText type="text" />
+                    <p class="text-danger mt-1" *ngIf="
+                        editarLibro.get('txtNoPaginas')?.hasError('required') &&
+                        editarLibro.get('txtNoPaginas')?.touched">
+                        Campo Requerido
+                    </p>
+                </div>
+
+                <div class="field col-12 md:col-6">
+                    <label>Precio :</label>
+                    <input formControlName="txtPrecio" pInputText type="text" />
+                    <p class="text-danger mt-1" *ngIf="
+                        editarLibro.get('txtPrecio')?.hasError('required') &&
+                        editarLibro.get('txtPrecio')?.touched">
+                        Campo Requerido
+                    </p>
+                </div>
+
+                <div class="field col-12 md:col-6">
+                    <label htmlFor="state">Autor :</label>
+                    <p-dropdown formControlName="cboIdAutor" [options]="itemsAutor" optionValue="idAutor"
+                        optionLabel="nombreAutor">
+
+                        <ng-template let-autor pTemplate="selectedItem">
+                            {{autor.nombreAutor }} {{autor.apellidosAutor }} 
+                        </ng-template>
+
+                        <ng-template let-autor pTemplate="item">
+                            {{autor.nombreAutor }} {{autor.apellidosAutor }} 
+                        </ng-template>
+                    </p-dropdown>
+                </div>
+
+                <div class="field col-12 md:col-6">
+                    <label htmlFor="state">Colección :</label>
+                    <p-dropdown formControlName="cboIdColeccion" [options]="itemsColeccion" optionValue="idColeccion"
+                        optionLabel="nombreColeccion"></p-dropdown>
+                </div>
+
+                <div class="field col-12 md:col-1">
+                    <button [disabled]="!editarLibro.valid" (click)="modificar()" pButton label="Modificar"></button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+</div>

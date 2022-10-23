@@ -1,0 +1,42 @@
+<div class="grid">
+
+    <div class="col-12">
+        <div class="card">
+            <h5>Modificar Autor:</h5>
+            <form class="p-fluid p-formgrid grid" [formGroup]="editarAutor">
+                <div class="field col-12 md:col-6">
+                    <label>Nombre Autor :</label>
+                    <input formControlName="txtNombreAutor" pInputText type="text" />
+                    <p class="text-danger mt-1" *ngIf="
+                        editarAutor.get('txtNombreAutor')?.hasError('required') &&
+                        editarAutor.get('txtNombreAutor')?.touched">
+                      Campo Requerido
+                    </p>
+                </div>
+                <div class="field col-12 md:col-6">
+                    <label>Apellidos Autor :</label>
+                    <input formControlName="txtApellidosAutor" pInputText type="text" />
+                    <p class="text-danger mt-1" *ngIf="
+                        editarAutor.get('txtApellidosAutor')?.hasError('required') &&
+                        editarAutor.get('txtApellidosAutor')?.touched">
+                      Campo Requerido
+                    </p>
+                </div>
+                <div class="field col-12">
+                    <label>Nacionalidad :</label>
+                    <input formControlName="txtNacionalidad" pInputText type="text"/>
+                    <p class="text-danger mt-1" *ngIf="
+                        editarAutor.get('txtNacionalidad')?.hasError('required') &&
+                        editarAutor.get('txtNacionalidad')?.touched">
+                      Campo Requerido
+                    </p>
+                </div>
+
+                <div class="field col-12 md:col-1">
+                    <button [disabled]="!editarAutor.valid" (click)="modificar()" pButton label="Modificar"></button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+</div>
