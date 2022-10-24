@@ -1,7 +1,7 @@
 
-### Gestion Coleccion Libros
+###Gestion Coleccion Libros
 
-###Heading 3 link [Heading link](https://github.com/pandao/editor.md "Heading link")Aca se encuentra el proyecto de catedra de DAW, con la aplicacionde Gestion de coleccion de libros 
+# Aca se encuentra el proyecto de catedra de DAW, con la aplicacionde Gestion de coleccion de libros 
 
 
 
