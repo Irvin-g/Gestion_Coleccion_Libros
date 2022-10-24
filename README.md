@@ -1,5 +1,5 @@
 
-# Gestion Coleccion Libros
+# Gestion Coleccion Libros 💻
 
 ### Aca se encuentra el proyecto de catedra de DAW, con la aplicación de Gestion de Coleccion de Libros. 
 
@@ -12,13 +12,18 @@
 - Merlos Muñoz, Davis Edwards - #SM202842
 - Siliezar Sánchez, Carlos Roberto - #SS202843
 - Vásquez Gabriel, Walter Leonel - #VG220015
-
 - Grupo: 02L
 
 
-### Links
-`<link>` Trello: https://trello.com/b/GSQuBKSq/proyecto-de-cátedra
-`<link>` Link de Mockups: https://www.figma.com/file/S9UvyHPM9sUH5KZ7wvn7pE/Mockups-DAW02L?node-id=0%3A1
+
+# Links
+> Trello: https://trello.com/b/GSQuBKSq/proyecto-de-cátedra
+
+> Link de Mockups: https://www.figma.com/file/S9UvyHPM9sUH5KZ7wvn7pE/Mockups-DAW02L?node-id=0%3A1
+
+# Licencia utilizada:
+
+Tipo de Licencia Creative Common implementada: Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) o en Español:  Reconocimiento-NoComercial-CompartirIgual 4.0 Internacional (CC BY-NC-SA 4.0)
 
 
 
