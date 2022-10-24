@@ -1,11 +1,11 @@
 
-###Gestion Coleccion Libros
+# Gestion Coleccion Libros
 
-# Aca se encuentra el proyecto de catedra de DAW, con la aplicacionde Gestion de coleccion de libros 
+### Aca se encuentra el proyecto de catedra de DAW, con la aplicación de Gestion de Coleccion de Libros. 
 
 
 
-### Features
+### Integrantes
 
 - Siliezar Colocho, Carlos Eduardo - #SC202203
 - González Romero, Irvin Eduardo - #GR202825
@@ -16,8 +16,7 @@
 - Grupo: 02L
 
 
-
-###Links
+### Links
 `<link>` Trello: https://trello.com/b/GSQuBKSq/proyecto-de-cátedra
 `<link>` Link de Mockups: https://www.figma.com/file/S9UvyHPM9sUH5KZ7wvn7pE/Mockups-DAW02L?node-id=0%3A1
 
