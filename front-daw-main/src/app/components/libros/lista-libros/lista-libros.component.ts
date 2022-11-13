@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { LibrosService } from 'src/app/services/database/libros.service';
-import { Libro, LibrosView } from '../../../interfaces/libro.interface';
+import { LibrosView } from '../../../interfaces/libro.interface';
 import { Router } from '@angular/router';
 
 @Component({

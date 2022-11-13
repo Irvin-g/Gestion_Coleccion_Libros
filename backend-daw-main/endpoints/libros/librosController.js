@@ -12,6 +12,17 @@ const obtenerLibros = async (req, res) => {
     res.send(result);
 };
 
+const obtenerConteoDashboard = async (req, res) => {
+    let result = [];
+    try {
+        result = await libros.obtenerConteoDashboard();
+    } catch (e) {
+        res.status(500).send(e);
+        return;
+    }
+    res.send(result);
+};
+
 const obtenerLibrosViewTabla = async (req, res) => {
     let result = [];
     try {
@@ -28,6 +39,18 @@ const obtenerLibroPorId = async (req, res) => {
     const idLibro = req.params.idLibro;
     try {
         result = await libros.obtenerLibroPorId(idLibro);
+    } catch (e) {
+        res.status(500).send(e);
+        return;
+    }
+    res.send(result);
+};
+
+const obtenerLibrosViewTablaConDeseados = async (req, res) => {
+    let result = [];
+    const idUsuario = req.params.idUsuario;
+    try {
+        result = await libros.obtenerLibrosViewTablaConDeseados(idUsuario);
     } catch (e) {
         res.status(500).send(e);
         return;
@@ -73,8 +96,10 @@ const disableLibro = async (req, res) => {
 
 module.exports = {
     obtenerLibros,
+    obtenerConteoDashboard,
     obtenerLibrosViewTabla,
     obtenerLibroPorId,
+    obtenerLibrosViewTablaConDeseados,
     crearLibro,
     editarLibro,
     disableLibro,

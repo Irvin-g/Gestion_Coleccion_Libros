@@ -13,6 +13,16 @@ libros.obtenerLibros = () => new Promise((resolve, reject) => {
     });
 });
 
+libros.obtenerConteoDashboard = () => new Promise((resolve, reject) => {
+    query(queries.obtenerConteoDashboard, [], (error, libros) => {
+        if (error) {
+            reject(error);
+        } else {
+            resolve(libros || []);
+        }
+    });
+});
+
 libros.obtenerLibrosViewTabla = () => new Promise((resolve, reject) => {
     query(queries.obtenerLibrosViewTabla, [], (error, libros) => {
         if (error) {
@@ -25,6 +35,16 @@ libros.obtenerLibrosViewTabla = () => new Promise((resolve, reject) => {
 
 libros.obtenerLibroPorId = (idLibro) => new Promise((resolve, reject) => {
     query(queries.obtenerLibroPorId, [idLibro], (error, libros) => {
+        if (error) {
+            reject(error);
+        } else {
+            resolve(libros || []);
+        }
+    });
+});
+
+libros.obtenerLibrosViewTablaConDeseados = (idUsuario) => new Promise((resolve, reject) => {
+    query(queries.obtenerLibrosViewTablaConDeseados, [idUsuario], (error, libros) => {
         if (error) {
             reject(error);
         } else {

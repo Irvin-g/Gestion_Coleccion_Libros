@@ -27,3 +27,13 @@ export interface LibrosView {
     estado?: string;
     createdBy?: number;
 }
+
+export interface Comentarios {
+    idComentario?: number;
+    idUsuario?: number;
+    idLibro?: number;
+    comentario?: string;
+    fecha?: string;
+    nombreUsuario?: string;
+    apellidoUsuario?: string;
+}

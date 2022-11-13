@@ -35,6 +35,18 @@ export class LibrosService {
         .pipe(catchError(this.handleError('obtenerLibrosViewTabla', [])));
   }
 
+  obtenerConteoDashboard() : Observable<object> {
+    return this.http
+        .get<any[]>(this.getUrl() + 'obtenerConteoDashboard')
+        .pipe(catchError(this.handleError('obtenerConteoDashboard', [])));
+  }
+
+  obtenerLibrosViewTablaConDeseados(idUsuario: number) : Observable<object> {
+    return this.http
+        .get<Libro>(this.getUrl() + 'obtenerLibrosViewTablaConDeseados/' + idUsuario )
+        .pipe(catchError(this.handleError('obtenerLibrosViewTablaConDeseados', [])));
+  }
+
   obtenerLibroPorId(idAutor: string) : Observable<object> {
     return this.http
         .get<Libro>(this.getUrl() + 'obtenerLibroPorId/' + idAutor )

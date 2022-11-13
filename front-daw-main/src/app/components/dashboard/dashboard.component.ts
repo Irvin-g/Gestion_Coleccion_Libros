@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { LibrosService } from 'src/app/services/database/libros.service';
 
 @Component({
   selector: 'app-dashboard',
@@ -7,9 +8,22 @@ import { Component, OnInit } from '@angular/core';
 })
 export class DashboardComponent implements OnInit {
 
-  constructor() { }
+  datosDashboard : any;
+
+  constructor(private librosService: LibrosService) { }
 
   ngOnInit(): void {
+    this.obtenerConteoDashboard();
+  }
+
+  obtenerConteoDashboard() {
+
+    this.librosService.obtenerConteoDashboard().subscribe(
+      (data: any) => {
+        this.datosDashboard = data[0];
+        console.log("this.datosDashboard", this.datosDashboard);
+      }
+    )
   }
 
 }

@@ -13,18 +13,26 @@ import { InputTextModule } from 'primeng/inputtext';
 
 import { InputMaskModule } from 'primeng/inputmask';
 import { DropdownModule } from "primeng/dropdown";
+import { DataViewModule } from 'primeng/dataview';
+import {TimelineModule} from 'primeng/timeline';
+import { CardModule } from 'primeng/card';
+import { DividerModule } from "primeng/divider";
 
 import { LibrosRoutingModule } from './libros-routing.module';
 import { ListaLibrosComponent } from './lista-libros/lista-libros.component';
 import { AgregarLibroComponent } from './agregar-libro/agregar-libro.component';
 import { EditarLibroComponent } from './editar-libro/editar-libro.component';
 import { LibrosService } from '../../services/database/libros.service';
+import { LibreriaComponent } from './libreria/libreria.component';
+import { LibrosDeseadosComponent } from './libros-deseados/libros-deseados.component';
 
 @NgModule({
   declarations: [
     ListaLibrosComponent,
     AgregarLibroComponent,
-    EditarLibroComponent
+    EditarLibroComponent,
+    LibreriaComponent,
+    LibrosDeseadosComponent
   ],
   imports: [
     CommonModule,
@@ -34,6 +42,10 @@ import { LibrosService } from '../../services/database/libros.service';
     ToastModule,
     ToolbarModule,
     TableModule,
+    DataViewModule,
+    TimelineModule,
+    CardModule,
+    DividerModule,
     ConfirmDialogModule,
     DialogModule,
     InputTextModule,

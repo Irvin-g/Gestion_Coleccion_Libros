@@ -1,10 +1,10 @@
-<div class="grid">
+<div class="grid" *ngIf="datosDashboard">
     <div class="col-12 lg:col-6 xl:col-3">
         <div class="card mb-0">
             <div class="flex justify-content-between mb-3">
                 <div>
                     <span class="block text-500 font-medium mb-3">Libros disponibles</span>
-                    <div class="text-900 font-medium text-xl">152</div>
+                    <div class="text-900 font-medium text-xl">{{datosDashboard.countLibros}}</div>
                 </div>
                 <div class="flex align-items-center justify-content-center bg-blue-100 border-round"
                     [ngStyle]="{width: '2.5rem', height: '2.5rem'}">
@@ -18,7 +18,7 @@
             <div class="flex justify-content-between mb-3">
                 <div>
                     <span class="block text-500 font-medium mb-3">Mis Libros Deseados</span>
-                    <div class="text-900 font-medium text-xl">$2.100</div>
+                    <div class="text-900 font-medium text-xl">100</div>
                 </div>
                 <div class="flex align-items-center justify-content-center bg-orange-100 border-round"
                     [ngStyle]="{width: '2.5rem', height: '2.5rem'}">
@@ -32,7 +32,7 @@
             <div class="flex justify-content-between mb-3">
                 <div>
                     <span class="block text-500 font-medium mb-3">Autores</span>
-                    <div class="text-900 font-medium text-xl">28441</div>
+                    <div class="text-900 font-medium text-xl">{{datosDashboard.countAutores}}</div>
                 </div>
                 <div class="flex align-items-center justify-content-center bg-cyan-100 border-round"
                     [ngStyle]="{width: '2.5rem', height: '2.5rem'}">
@@ -46,7 +46,7 @@
             <div class="flex justify-content-between mb-3">
                 <div>
                     <span class="block text-500 font-medium mb-3">Usuarios</span>
-                    <div class="text-900 font-medium text-xl">152 Unread</div>
+                    <div class="text-900 font-medium text-xl">{{datosDashboard.countUsuarios}}</div>
                 </div>
                 <div class="flex align-items-center justify-content-center bg-purple-100 border-round"
                     [ngStyle]="{width: '2.5rem', height: '2.5rem'}">
@@ -55,5 +55,5 @@
             </div>
         </div>
     </div>
-<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Licencia Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Aplicacion de gestión de colección de libros</span> por <span xmlns:cc="http://creativecommons.org/ns#" property="cc:attributionName">Grupo de DAW02L</span> se distribuye bajo una <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Licencia Creative Commons Atribución-NoComercial-CompartirIgual 4.0 Internacional</a>.
+
 </div>
