@@ -1,11 +1,11 @@
 
 # Gestion Coleccion Libros 💻
 
-### Aca se encuentra el proyecto de catedra de DAW, con la aplicación de Gestion de Coleccion de Libros. 
+### Aca se encuentra el proyecto de catedra de DAW, con la aplicación de Gestion de Coleccion de Libros. 📚
 
 
 
-### Integrantes
+### Integrantes 👤
 
 - Siliezar Colocho, Carlos Eduardo - #SC202203
 - González Romero, Irvin Eduardo - #GR202825
@@ -16,7 +16,7 @@
 
 
 
-# Links 📎
+# Links 🔗
 
 > Trello: https://trello.com/b/GSQuBKSq/proyecto-de-cátedra
 
