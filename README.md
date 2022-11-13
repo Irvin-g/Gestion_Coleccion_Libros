@@ -5,7 +5,7 @@
 
 
 
-### Integrantes 👤
+# Integrantes 👤
 
 - Siliezar Colocho, Carlos Eduardo - #SC202203
 - González Romero, Irvin Eduardo - #GR202825
