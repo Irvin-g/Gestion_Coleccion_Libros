@@ -23,6 +23,11 @@
 
 > Link de tutorial de como montar el proyecto y funcionamiento: https://drive.google.com/drive/folders/1ZwZLxSgyfhttYB14oR5OpHNtTvBiFpby?usp=sharing
 
+> Link manual Técnico: 
+
+> Link manual de usuario: 
+
+
 # Licencia utilizada:
 
 Tipo de Licencia Creative Common implementada: Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) o en Español:  Reconocimiento-NoComercial-CompartirIgual 4.0 Internacional (CC BY-NC-SA 4.0)
