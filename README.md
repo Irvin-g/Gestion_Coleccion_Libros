@@ -1,7 +1,7 @@
 
 # Gestion Coleccion Libros 💻
 
-### Aca se encuentra el proyecto de catedra de DAW, con la aplicación de Gestion de Coleccion de Libros. 📚
+### Aca se encuentra el proyecto de catedra de DAW, con la aplicación de Gestion de Coleccion de Libros 📚
 
 
 
@@ -29,7 +29,7 @@
 > Link manual de usuario: 
 
 
-# Licencia utilizada:
+# Licencia utilizada 📓
 
 Tipo de Licencia Creative Common implementada: Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) o en Español:  Reconocimiento-NoComercial-CompartirIgual 4.0 Internacional (CC BY-NC-SA 4.0)
 
