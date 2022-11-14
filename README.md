@@ -20,7 +20,7 @@
 
 > Trello: https://trello.com/b/GSQuBKSq/proyecto-de-cátedra
 
-> Link de Mockups: https://www.figma.com/file/S9UvyHPM9sUH5KZ7wvn7pE/Mockups-DAW02L?node-id=0%3A1
+> Link de Mockups en Figma: https://www.figma.com/file/S9UvyHPM9sUH5KZ7wvn7pE/Mockups-DAW02L?node-id=0%3A1
 
 > Link tutorial de como montar el proyecto y funcionamiento: https://drive.google.com/drive/folders/1ZwZLxSgyfhttYB14oR5OpHNtTvBiFpby?usp=sharing
 
