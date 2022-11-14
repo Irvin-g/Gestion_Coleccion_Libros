@@ -24,7 +24,7 @@
 
 > Link tutorial de como montar el proyecto y funcionamiento: https://drive.google.com/drive/folders/1ZwZLxSgyfhttYB14oR5OpHNtTvBiFpby?usp=sharing
 
-> Link manual Técnico: 
+> Link manual Técnico: https://drive.google.com/file/d/1LsRLyKIdDQaa2mJb0O7HYmkAZ9nrsPd0/view?usp=share_link
 
 > Link manual de usuario: https://drive.google.com/drive/folders/1YYaNgUEu_MNY3LtHPvJFfWAKZydTEdBs?usp=sharing
 
