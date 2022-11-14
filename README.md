@@ -26,7 +26,7 @@
 
 > Link manual Técnico: 
 
-> Link manual de usuario: 
+> Link manual de usuario: https://drive.google.com/drive/folders/1YYaNgUEu_MNY3LtHPvJFfWAKZydTEdBs?usp=sharing
 
 
 # Licencia utilizada 📓
